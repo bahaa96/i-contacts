@@ -1,0 +1,21 @@
+{
+  "extends": ["tslint:recommended", "tslint-react"],
+  "rules": {
+    "curly": true,
+    "ordered-imports": false,
+    "max-line-length": false,
+    "object-literal-sort-keys": false,
+    "variable-name": false,
+    "indent": [true, "spaces", 2],
+    "no-console": false,
+    "jsx-alignment": false,
+    "no-var-requires": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false
+  },
+  "jsRules": {
+    "curly": true
+  },
+  "rulesDirectory": [
+  ]
+}
